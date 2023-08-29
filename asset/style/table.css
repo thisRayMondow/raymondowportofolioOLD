@@ -1,0 +1,46 @@
+.table{
+	width: 100%;
+	border:1px solid black;
+	background-color: rgba(200,100,100, 0.8);
+	margin-bottom: 10px;
+	font-family: monospace;
+}
+.tTitle{
+	font-size: 24px;
+	text-align: left;
+	background: rgba(200,100,100, 0.8);
+	height: auto; 
+}
+.tHead{
+	border:double;
+	background-color:  rgba(144,14,44, 0.8);
+	clear: both;
+}
+.tBody{
+	border:1px solid black;
+	background-color: grey;
+}
+.tRow{
+	border:1px solid black;
+	background-color: rgba(50,100,50, 0.8);
+}
+
+table {
+  width: 100%;
+	border:1px solid black;
+	background-color: rgba(200,100,100, 0.8);
+	margin-bottom: 10px;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+td, th {
+  border: double;
+  text-align: left;
+  padding: 8px;
+  background-color: rgba(173,216,230, 0.4);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(173,216,230, 0.4);
+}
